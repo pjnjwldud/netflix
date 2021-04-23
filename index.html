@@ -77,16 +77,15 @@
             height: 120%;
         }
 
-        #contents-box{width: 350px;}
+        #contents-box{width: 100%;}
         #gif-box{
             border:3px solid gray;
             border-radius: 15px;
             width: 350px;
             height: 100px;
-            padding:20px;
-            margin-left: 100px; 
+            padding:20px; 
+            margin-left: 100px;            
         }
-
         #gif-box img{
             width:45px;
             height:64px;
@@ -141,7 +140,7 @@
             overflow: hidden;
             transition: max-height 0.2s ease-out;
         }
-        #qna .container{width:900px !important;}
+        #qna .container{ width:900px !important;}
         #qna .panel{
             border-radius: 0;  
             color:rgb(78, 77, 77) !important;  
@@ -162,7 +161,7 @@
                 width:300px;
                 margin: auto;
             }
-            #qna .container{width: 90% !important;}
+            #qna .container{ width:90% !important;}
            
         }
 
@@ -237,20 +236,19 @@
     <div id="contents" class="container-fluid border-bottom">
         <div class="container">
             <div class="row">
-                <div class="col-sm-6" style="float: right !important; width: 50%;">
-                    <h1 style="width: 100% !important;">즐겨 보는 콘텐츠를 저장해<br> 오프라인으로 시청하세요.</h1>
-                    <p style="width: 100% !important;">간편하게 저장하고 빈틈없이 즐겨보세요.</p>
+                <div class="col-sm-6" style="float: right !important;width:50%;">
+                    <h1 style="width:100% !important;">즐겨 보는 콘텐츠를<br> 저장해 오프라인으로<br> 시청하세요.</h1>
+                    <p style="width:100% !important;">간편하게 저장하고 빈틈없이 즐겨보세요.</p>
                 </div>
-                <div class="col-sm-6" style="float: right">
+                <div class="col-sm-6" style="float: right;">
                     <div id="contents-box">
-                        <img src="img/pic01.jpg" alt="contents-box">
+                        <img src="img/pic01.jpg" alt="contents-box" style="width:100%">
                         <div id="gif-box" style="z-index: 999 !important;">
                             <img  src="img/pic02.png" alt="기묘한이야기">                            
                             <div style="float: left;">
                                 기묘한 이야기<br>
                                 저장중...
-                            </div>  
-                            
+                            </div>                              
                         </div>
                     </div>
                 </div>
